@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  align-items: center;
+}
+
+#art {
+  align-items: center;
+  margin-top: 20px;
+  border: 10px solid #fff;
+  border-radius: 10px;
+  overflow: auto;
+  background-color: #fff;
+  box-shadow: 10px 5px 5px #888888;
+}
+
+pre {
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1px;
+  line-height: normal;  /* prevent mantine style */
+}
+
+p {
+  margin: 5px 0;
+  color: #000;
+}
