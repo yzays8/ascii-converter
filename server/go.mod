@@ -2,9 +2,10 @@ module github.com/yzays8/ascii-converter
 
 go 1.20
 
+require github.com/gofiber/fiber/v2 v2.51.0
+
 require (
 	github.com/andybalholm/brotli v1.0.6 // indirect
-	github.com/gofiber/fiber/v2 v2.51.0 // indirect
 	github.com/google/uuid v1.4.0 // indirect
 	github.com/klauspost/compress v1.17.3 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
